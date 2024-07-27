@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:slnt,wght@-10..0,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0px 0px;
+    font-family: "Mulish", sans-serif;
+    flex-wrap: wrap;
+}
+
+.header-seaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.top-1 {
+    display: flex;
+    align-items: center;
+    width: 157px;
+    height: 87px;
+    color: #01459C;
+}
+
+.top-1 span {
+    margin-left: 53%;
+    margin-top: -50%;
+    font-size: 30px;
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+    color: #01459C;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head .span {
+    font-size: 22px;
+    color: #01459C;
+}
+
+.head select {
+    top: 51px;
+    margin: 0px 100px;
+    border: none;
+}
+
+.option {
+    display: flex;
+    margin-left: 160px;
+
+}
+
+.option img {
+    display: flex;
+    justify-content: center;
+    margin: 0px -2px;
+    width: 40px;
+
+}
+
+.option .option- {
+    font-size: 20px;
+    margin: 0px 25px;
+    border: none;
+    border-radius: 1px solid;
+}
+
+.option .option-1 {
+    padding: 15px 70px 15px 15px;
+    border: 1px solid;
+    border-radius: 12px;
+    margin: 0px 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button {
+    border-radius: 8px;
+    color: #fff;
+    background-color: #01459C;
+    width: 352px;
+    height: 60px;
+    margin-top: -3%;
+}
+
+.header-img img {
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+    margin-right: 90px;
+    margin-left: -136px;
+}
+
+/* 2 seassio */
+
+.bg-seasion {
+    position: relative;
+
+}
+
+.bg-seasion img {
+    width: 100%;
+    height: 484px;
+}
+
+
+.banner-text h1 {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    top: 140px;
+    left: 307px;
+    padding-bottom: 30px;
+}
+
+.banner-text h1 span {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+    left: 457px;
+}
+
+.input-seasion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 30px 0px;
+    
+}
+
+
+
+.input-seasion input {
+    position: absolute;  
+    width: 900px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20PX 70px;
+    border: none;
+    border-radius: 10px;
+    top: -80px;
+}
+
+.input-seasion img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -49px;
+    margin-left: -50%;
+    padding-left: 10px;
+}
+
+.input-seasion select {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    border: none;
+    margin-right: 70px;
+    top: -80px;
+    padding: 20PX 10px;
+
+}
+
+.input-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+    padding: 20PX 10px;
+}
+
+.input-seasion button {
+    position: absolute;
+    width: 160px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    left: 65%;
+    top: -66px;
+    border: none;
+    border-radius: 10px;
+    background-color: #01459C;
+}
+
+.top-3 {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+.imges {
+    margin: 22px 50px;
+
+}
+
+.imges-b img {
+
+    margin: 15px 25px;
+    color: #01459C;
+}
+
+.imges-b .text-b span {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 15px 25px;
+    color: #325685;
+}
+
+.top-3 .imges .text {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: -5px;
+
+}
+
+/* session 3 */
+
+.btns {
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+
+}
+
+.btn-1 {
+    color: #fff;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 15px 30px;
+    background-color: #325685;
+    ;
+}
+
+.btn {
+    width: 130px;
+    height: 55px;
+    border-radius: 10px;
+    margin: 15px 30px;
+    border: none;
+    color: #737373;
+
+}
+
+/* 3 session */
+.pleces {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.address h2 {
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.images-group {
+    margin-left: 20px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.address {
+    align-items: center;
+}
+
+.location img {
+    display: flex;
+    margin-left: -30px;
+    padding: 0px 10px;
+    width: 20px;
+    height: 23px;
+}
+
+.prise h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #01459C;
+}
+
+.address h3 span {
+    font-size: 14PX;
+    font-weight: 600;
+    color: #474747;
+}
+
+.view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #01459C;
+}
+
+.time h5 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #AFAFAF;
+}
+
+.heading h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.inputers {
+    position: relative;
+}
+
+.input input {
+    width: 1100px;
+    height: 80px;
+    font-size: 25px;
+    font-weight: 600;
+    left: 50%;
+    margin-left: 20%;
+    padding-left: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #AEAEAE;
+    margin-bottom: 30px;
+
+}
+
+.input .pulas {
+    position: absolute;
+    text-align: center;
+    margin-top: -80px;
+    left: 78%;
+    color: #818181;
+
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    background-color: #01459C;
+    height: 350px;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+}
+
+
+.footer h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 8%;
+    color: #fff;
+    
+
+
+}
+
+
+.footer .data .list {
+    justify-content: space-between;
+    margin-right: 100px;
+    padding: 8px;
+    list-style-type: none;
+    color: #fff;
+}
+
+.footer .end h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    top: 30%;
+    right: 38%;
+    font-size: 28px;
+}
